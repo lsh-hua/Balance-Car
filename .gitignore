@@ -1,0 +1,33 @@
+# Keil 编译输出与中间文件
+/MDK-ARM/balance/
+/build/
+*.o
+*.d
+*.crf
+*.axf
+*.elf
+*.hex
+*.bin
+*.map
+*.lst
+*.lnp
+*.dep
+*.build_log.htm
+
+# Keil、调试器与编辑器的本机状态
+*.uvguix.*
+*.uvoptx
+/MDK-ARM/JLinkLog.txt
+/MDK-ARM/JLinkSettings.ini
+/MDK-ARM/.vscode/
+/.vscode/
+/.mxproject
+
+# 临时文件
+*.log
+*.lock
+*.bak
+*.tmp
+*~
+.DS_Store
+Thumbs.db
